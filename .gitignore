@@ -1,0 +1,16 @@
+.gradle
+.vscode
+.idea
+.settings
+.metadata
+bin
+build
+coverage
+devops/keypairs
+node_modules
+
+.classpath
+.DS_Store
+.factorypath
+.project
+

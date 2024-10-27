@@ -72,6 +72,7 @@ npm start
 
 <details>
     <summary>Auth Package</summary>
+
 - [x] AuthService.java
     - [x] willThrowLoginWhenWrongPassword
     - [x] canLogin
@@ -95,6 +96,7 @@ npm start
 
 <details>
     <summary>Cache Package</summary>
+
 - [x] CacheDao.java
     - [x] canSet
     - [x] canGet
@@ -110,6 +112,7 @@ npm start
 
 <details>
     <summary>Post Package</summary>
+
 - [x] PostService.java
     - [x] canGetAllPostsWhenCacheHit
     - [x] canGetAllPosts
@@ -131,6 +134,7 @@ npm start
 
 <details>
     <summary>Health Package</summary>
+
 - [x] HealthService.java
     - [x] canGetHealthWithDatabasesUp
     - [ ] canGetHealthWithDatabasesDown
@@ -142,10 +146,12 @@ npm start
     - [x] canGetMysqlDownStatus
     - [x] canGetRedisUpStatus
     - [x] canGetRedisDownStatus
+
 </details>
 
 <details>
     <summary>Util Package</summary>
+
 - [x] StringUtil.java
     - [x] willReturnFalseDuringIsStringValidWhenStringIsNull
     - [x] willReturnFalseDuringIsStringValidWhenStringIsBlank
@@ -261,12 +267,19 @@ server {
 2. Set the following secrets:
 
 > Set ADMIN_PW to your secure, hashed password for logging into the admin platform.
+
 > Set JWT_SECRET_KEY to your JWT signing key.
+
 > Set SPRING_DATASOURCE_PASSWORD to the MySQL user password. 
+
 > Set SPRING_DATASOURCE_USERNAME to the MySQL user username.
+
 > Set SPRING_DATA_REDIS_PASSWORD to the Redis server authentication password. 
+
 > Set SSH_HOST to the IP address of the EC2 instance hosting the Spring Boot app.
+
 > Set SSH_KEY to the content in the keypair that authorizes SSH connections to the EC2 instance hosting the Spring Boot app.
+
 > Set TEST_ADMIN_PW to a secure, hashed password for logging into the admin platform for integration tests only.
 
 </details>

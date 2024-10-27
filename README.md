@@ -164,6 +164,8 @@ npm start
     - [x] canGetRemainingMillis
 </details>
 
+<hr/>
+
 </details>
 
 <details>
@@ -266,20 +268,20 @@ server {
 
 2. Set the following secrets:
 
-> Set ADMIN_PW to your secure, hashed password for logging into the admin platform.
+> Set `ADMIN_PW` to your secure, hashed password for logging into the admin platform.
 
-> Set JWT_SECRET_KEY to your JWT signing key.
+> Set `JWT_SECRET_KEY` to your JWT signing key.
 
-> Set SPRING_DATASOURCE_PASSWORD to the MySQL user password. 
+> Set `SPRING_DATASOURCE_PASSWORD` to the MySQL user password. 
 
-> Set SPRING_DATASOURCE_USERNAME to the MySQL user username.
+> Set `SPRING_DATASOURCE_USERNAME` to the MySQL user username.
 
-> Set SPRING_DATA_REDIS_PASSWORD to the Redis server authentication password. 
+> Set `SPRING_DATA_REDIS_PASSWORD` to the Redis server authentication password. 
 
-> Set SSH_HOST to the IP address of the EC2 instance hosting the Spring Boot app.
+> Set `SSH_HOST` to the IP address of the EC2 instance hosting the Spring Boot app.
 
-> Set SSH_KEY to the content in the keypair that authorizes SSH connections to the EC2 instance hosting the Spring Boot app.
+> Set `SSH_KEY` to the content in the keypair that authorizes SSH connections to the EC2 instance hosting the Spring Boot app.
 
-> Set TEST_ADMIN_PW to a secure, hashed password for logging into the admin platform for integration tests only.
+> Set `TEST_ADMIN_PW` to a secure, hashed password for logging into the admin platform for integration tests only.
 
 </details>

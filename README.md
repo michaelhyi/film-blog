@@ -11,7 +11,7 @@ This repository contains the source code to a film blog I started last year. It 
 
 Though not my most "impressive" project, it's my favorite one to have worked on thus far. I have put several hundred commits into this project, all while experimenting with different technologies and learning along the way.
 
-Source code has been moved here on October 25th, 2024. It was preivously part of my personal website's respository.
+Source code has been moved here on October 25th, 2024. It was previously part of my personal website's respository.
 
 ## Development
 

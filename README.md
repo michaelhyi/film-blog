@@ -13,6 +13,16 @@ Though not my most "impressive" project, it's my favorite one to have worked on 
 
 Source code has been moved here on October 25th, 2024. It was previously part of my personal website's respository.
 
+## Tech Stack
+
+- Java
+- Go
+- Spring Framework
+- MySQL
+- Redis
+- JUnit
+- React
+
 ## Development
 
 <details>
@@ -285,3 +295,4 @@ server {
 > Set `TEST_ADMIN_PW` to a secure, hashed password for logging into the admin platform for integration tests only.
 
 </details>
+
